@@ -70,7 +70,7 @@ src={one.node.featuredImage.url}/>
 
 <div dangerouslySetInnerHTML={{__html:one.node.note.html}} className='mainContent'>
   
-</div> 
+</div>  
 
 <div className='author'> 
  <img
@@ -90,7 +90,7 @@ src={one.node.featuredImage.url}/>
 </div>
     ) 
     )}  
-
+ 
 </div>
 
   </div>
