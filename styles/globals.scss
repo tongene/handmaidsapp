@@ -1,0 +1,165 @@
+*{
+    margin: 0 ;
+    padding: 0; 
+}
+
+$primary-color:#a92344;
+$primary-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ 
+.haffHeader{
+    color:$primary-color;
+    font-family:$primary-font ;
+   cursor:pointer ;
+   margin: 10px 0 0 35px;
+   font-size: 45px;
+   
+}
+.navItems{   
+    display: flex;
+    justify-content: space-between;    
+}
+
+.navDiv{
+    margin: 20px 20px ;
+ color:#a92344;
+ font-family:$primary-font ;
+ font-size: 20px;
+
+}
+.navLinks{
+    margin-left: 17px;
+    cursor:pointer
+}
+
+.navLinks:hover{
+    color:rgb(62, 81, 100);
+}
+.split{    
+    width: 95%;
+    height: 3px;
+    margin: 0 auto;
+    margin-top:50px;
+    color:#fefefe
+  }
+.coverDiv{  
+    background-color: #030303;  
+    
+    color:#fefefe
+}
+
+.haffTitle{
+    font-size: 27px
+}
+.haffCards{
+    font-size: 20px;
+    color:$primary-color;
+}
+
+.haffTitle a{
+color:$primary-color;
+    list-style: none;
+    text-decoration: none;
+}
+.haffTitle a:visited {
+    color: rgb(89, 48, 97);
+}
+.haffTitle a:hover {
+    color: #ff69b4;
+}
+.haffTitle a:active{
+    color: rgb(82, 82, 156);
+}
+
+.haffDisplay{
+   margin: 50px 0 0 0;
+    p{
+        margin: 20px 0 0 0;
+        font-size: 14px;
+         
+    }
+}
+ .display{
+    margin: 15px 0 0 0;
+        height:420px;
+        width:420px
+    }
+.author{
+   display: flex;
+  
+   img{
+     height:40px;
+    width:35px;
+   }
+}
+
+.haffImg{
+    margin: 20px 0 0 20px;
+    width: 50px;
+        height:50px;    
+    span{
+        cursor:pointer
+    }
+}
+ 
+.haffCollection{ 
+     width:520px; 
+    background-color: $primary-color;
+    margin: 20px 0 0 0;
+}
+.sideCollections{
+    margin: 90px 0 0 0;     
+}
+.footerDiv{
+    background-color: $primary-color;
+    color:#fefefe;
+    font-family:$primary-font ;
+    text-align: center;
+}
+@media only screen and (max-width: 500px){
+    .coverDiv{
+      display:block;
+      padding:0 0 1rem 80px;
+   
+    }
+    .haffHeader{       
+     text-align: center;
+     
+}
+.midDiv{
+    margin: 20px 0 0 0 
+}
+.haffTitle{
+   font-size: 25px;
+   padding: 10px 0 0 0 
+
+}
+ .author{
+    margin: 20px 0 0 0 ;
+    p{
+        margin: 0 0 0 20px;
+        font-size: 20px;
+    }
+ }
+.display{  
+    height:380px;
+    width:320px
+}
+
+.mainContent{
+     
+    font-size: 20px;
+    p, img{
+        margin: 20px 0 0 0 
+    }
+   
+}
+.split{    
+    width: 95%;
+    height: 3px;
+    margin: 0 auto;
+  
+    color:#fefefe
+  }
+}
+
