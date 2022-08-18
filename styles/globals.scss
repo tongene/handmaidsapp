@@ -18,8 +18,7 @@ $primary-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
   p, img{
       margin: 20px 0 0 0;
-      inline-size: 330px;
-      overflow-wrap: break-word;
+   
   }
  
 }
@@ -67,6 +66,10 @@ $primary-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:$primary-color;
 }
 
+  .display{
+        margin: 15px 0 0 0;
+}
+
 .haffTitle a{
 color:$primary-color;
     list-style: none;
@@ -89,11 +92,7 @@ color:$primary-color;
         font-size: 14px;
     }
 }
- .display{
-    margin: 15px 0 0 0;
-        height:420px;
-        width:420px
-    }
+
 .author{
    display: flex;
    margin: 20px 0 0 0 ;
@@ -108,10 +107,7 @@ font-size: 20px;
     }
 }
  
-  .display{  
-    height:380px;
-    width:320px
-  }
+ 
 
 .haffImg{
     margin: 20px 0 0 20px;
@@ -164,6 +160,7 @@ font-size: 20px;
 .display{  
     height:380px;
     width:320px
+  
 }
 
 .mainContent{
