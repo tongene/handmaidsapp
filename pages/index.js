@@ -59,6 +59,7 @@ return{
 
 </div> 
 <h1 className='haffHeader'> Handmaids</h1>
+<div className='underHeader'></div>
 <div className='coverDiv'>  
 {pamphletsConnection.edges.map((one, index)=>( 
 <div className='midDiv'key={one.id}>

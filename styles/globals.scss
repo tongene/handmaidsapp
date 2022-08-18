@@ -1,73 +1,56 @@
 *{
     margin: 0 ;
-    padding: 0; 
+    padding: 0;
 }
-
 $primary-color:#a92344;
 $primary-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- 
-  .haffTitle{
-  font-size: 35px;
-  padding: 30px 0 15px  0;
-  inline-size: 330px;
-  overflow-wrap: break-word;
-  }
-
-.mainContent{  
-  font-size: 25px;
-
-  p, img{
-      margin: 20px 0 0 0;
-   
-  }
- 
+body{
+    background-color: #030303;
 }
  
+
+  .haffTitle{
+  font-size: 35px;
+  padding: 30px 0 15px 50px;
+
+  }
+
+.mainContent{
+  font-size: 25px;
+  p, img{
+      margin: 20px 0 0 50px;
+  }
+
+}
+
 .haffHeader{
+    width:100%;
     color:$primary-color;
     font-family:$primary-font ;
    cursor:pointer ;
-   margin: 10px 0 0 35px;
+ padding:10px 0 20px 0;
+text-align: center;
    font-size: 45px;
-   
-}
-.navItems{   
-    display: flex;
-    justify-content: space-between;    
+   background-color: #fefefe;
 }
 
-.navDiv{
-    margin: 20px 20px ;
- color:#a92344;
- font-family:$primary-font ;
- font-size: 20px;
 
-}
-.navLinks{
-    margin-left: 17px;
-    cursor:pointer
-}
-
-.navLinks:hover{
-    color:rgb(62, 81, 100);
-}
-  .midDiv{
-    margin: 0 0 0 100px;
-   
- }
-.coverDiv{  
-    background-color: #030303; 
+.coverDiv{
+   width: 100%;
     color:#fefefe;
-    padding: 0 0 0.02px 0 
+    padding: 0 0 0.02px 0
 }
-
+.container{
+    margin: 20px 0 0 0;
+    
+}
 .haffCards{
     font-size: 20px;
     color:$primary-color;
 }
 
   .display{
-        margin: 15px 0 0 0;
+        margin: 15px 0 0 50px;
 }
 
 .haffTitle a{
@@ -95,8 +78,8 @@ color:$primary-color;
 
 .author{
    display: flex;
-   margin: 20px 0 0 0 ;
- 
+   margin: 20px 0 0 50px ;
+
    img{
      height:40px;
     width:35px;
@@ -106,26 +89,8 @@ margin: 0 0 0 20px;
 font-size: 20px;
     }
 }
- 
- 
 
-.haffImg{
-    margin: 20px 0 0 20px;
-    width: 50px;
-        height:50px;    
-    span{
-        cursor:pointer
-    }
-}
- 
-.haffCollection{ 
-     width:520px; 
-    background-color: $primary-color;
-    margin: 20px 0 0 0;
-}
-.sideCollections{
-    margin: 90px 0 0 0;     
-}
+
 .footerDiv{
     background-color: $primary-color;
     color:#fefefe;
@@ -133,44 +98,46 @@ font-size: 20px;
     text-align: center;
 }
 @media only screen and (max-width: 500px){
+    .container{
+        margin: 20px 0 0 0;        
+    }
     .coverDiv{
       display:block;
-      padding:0 0 1rem 70px;
-   
+    
     }
-    .haffHeader{       
-     text-align: center;
-     
-}
-.midDiv{
-    margin: 20px 0 0 0 
-}
-.haffTitle{
-   font-size: 25px;
-   padding: 10px 0 0 0 
+    .haffHeader{  
+     background-color: #030303;
 
 }
+.underHeader{
+    width:30%;
+    background-color: $primary-color;
+    height:3px;
+   margin: 0 auto    
+}
+
+.midDiv{
+    margin: 20px 0 0 0;
+    
+}
+ 
  .author{
-    margin: 20px 0 0 0 ;
+  
     p{
-        margin: 0 0 0 20px;
+        
         font-size: 20px;
     }
  }
-.display{  
-    height:380px;
-    width:320px
-  
+
+.display{
+    height:400px;
+    width:400px
 }
 
-.mainContent{
-     
-    font-size: 20px;
-    p, img{
-        margin: 20px 0 0 0 
-    }
-   
+.mainContent img{   
+        width: 400px;
+        height: 400px;    
 }
- 
+
 }
 
