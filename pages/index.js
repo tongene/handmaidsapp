@@ -171,7 +171,7 @@ src={one.node.featuredImage.url}/>
 
   {leaderBoards.map((one)=>( 
      <div key={one.id}className='leaderSec'>
-<img
+<img 
 src={one.featuredImage.url}
 alt={one.name}
 />
@@ -192,48 +192,46 @@ alt={one.name}
     )} */}
 <h2 className='galleryImage'>Old Girl's Gallery</h2>
 <div className='imgSec'>
+   <Image src={image004} height={200} width={200}  alt='oldGirls photos'/>
+  <Image src={image005} height={200} width={200} alt='oldGirls photos'/>
+  <Image src={image006} height={200} width={200} alt='oldGirls photos'/>
+  <Image src={image007} height={200} width={200} alt='oldGirls photos'/>
+  <Image src={image008} height={200} width={200} alt='oldGirls photos'/>
+  <Image src={image009} height={200} width={200} alt='oldGirls photos'/>
+    <Image src={image003} height={200} width={200} alt='oldGirls photos'/> 
+     <Image src={image010} height={200} width={200} alt='oldGirls photos'/>
+    <Image src={image011} height={200} width={200} alt='oldGirls photos'/>
+    <Image src={image012} height={200} width={200} alt='oldGirls photos'/>
+    <Image src={image013} height={200} width={200} alt='oldGirls photos'/>
+    <Image src={image014} height={200} width={200} alt='oldGirls photos'/>
+      <Image src={image015} height={200} width={200} alt='oldGirls photos'/>
+      <Image src={image016} height={200} width={200} alt='oldGirls photos'/>
+        <Image src={image017} height={200} width={200}alt='oldGirls photos'/>
+        <Image src={image018} height={200} width={200}alt='oldGirls photos'/>
+        <Image src={image019} height={100} width={200}alt='oldGirls photos'/>
+        <Image src={image020} height={200} width={200}alt='oldGirls photos'/>
+        <Image src={image021} height={200} width={200}alt='oldGirls photos'/>
+        <Image src={image022} height={200} width={200}alt='oldGirls photos'/>  
+        <Image src={image023} height={200} width={200}alt='oldGirls photos'/>
+        <Image src={image024} height={200} width={200}alt='oldGirls photos'/>
+        <Image src={image025} height={200} width={200}alt='oldGirls photos'/>
+        <Image src={image026} height={200} width={200}alt='oldGirls photos'/>
+        <Image src={image027} height={200} width={200}alt='oldGirls photos'/>
+        <Image src={image028} height={200} width={200}alt='oldGirls photos'/>
+          <Image src={image029} height={200} width={200}alt='oldGirls photos'/>
+            <Image src={image030} height={200} width={200}alt='oldGirls photos'/>
+            <Image src={image031} height={200} width={200}alt='oldGirls photos'/>
 
+  <Image src={image033} height={200} width={200} alt='oldGirls photos'/>
 
-   <Image src={image004} height={200} width={200}/>
-  <Image src={image005} height={200} width={200}/>
-  <Image src={image006} height={200} width={200}/>
-  <Image src={image007} height={200} width={200}/>
-  <Image src={image008} height={200} width={200}/>
-  <Image src={image009} height={200} width={200}/>
-    <Image src={image003} height={200} width={200}/> 
-     <Image src={image010} height={200} width={200}/>
-    <Image src={image011} height={200} width={200}/>
-    <Image src={image012} height={200} width={200}/>
-    <Image src={image013} height={200} width={200}/>
-    <Image src={image014} height={200} width={200}/>
-      <Image src={image015} height={200} width={200}/>
-      <Image src={image016} height={200} width={200}/>
-        <Image src={image017} height={200} width={200}/>
-        <Image src={image018} height={200} width={200}/>
-        <Image src={image019} height={100} width={200}/>
-        <Image src={image020} height={200} width={200}/>
-        <Image src={image021} height={200} width={200}/>
-        <Image src={image022} height={200} width={200}/>  
-        <Image src={image023} height={200} width={200}/>
-        <Image src={image024} height={200} width={200}/>
-        <Image src={image025} height={200} width={200}/>
-        <Image src={image026} height={200} width={200}/>
-        <Image src={image027} height={200} width={200}/>
-        <Image src={image028} height={200} width={200}/>
-          <Image src={image029} height={200} width={200}/>
-            <Image src={image030} height={200} width={200}/>
-            <Image src={image031} height={200} width={200}/>
-
-  <Image src={image033} height={200} width={200}/>
-
-    <Image src={image034} height={200} width={200}/> 
-      <Image src={image035} height={200} width={200}/>
-    <Image src={image036} height={200} width={200}/>
-    <Image src={image037} height={200} width={200}/>
-    <Image src={image038} height={200} width={200}/>
-    <Image src={image039} height={200} width={200}/>
-    <Image src={image040} height={200} width={200}/>
-    <Image src={image041} height={200} width={200}/>
+    <Image src={image034} height={200} width={200}alt='oldGirls photos'/> 
+      <Image src={image035} height={200} width={200}alt='oldGirls photos'/>
+    <Image src={image036} height={200} width={200}alt='oldGirls photos'/>
+    <Image src={image037} height={200} width={200}alt='oldGirls photos'/>
+    <Image src={image038} height={200} width={200}alt='oldGirls photos'/>
+    <Image src={image039} height={200} width={200}alt='oldGirls photos'/>
+    <Image src={image040} height={200} width={200}alt='oldGirls photos'/>
+    <Image src={image041} height={200} width={200}alt='oldGirls photos'/>
  
 </div>
 
