@@ -148,7 +148,8 @@ return{
 
 <img
 className='display'
-src={one.node.featuredImage.url}/> 
+src={one.node.featuredImage.url}
+alt='oldGirls photos'/> 
 <div dangerouslySetInnerHTML={{__html:one.node.note.html}} className='mainContent'>
   
 </div>  
@@ -174,6 +175,7 @@ src={one.node.featuredImage.url}/>
 <img 
 src={one.featuredImage.url}
 alt={one.name}
+ 
 />
 <div className='boardLine'></div>
 <p>{one.description}</p>  
@@ -181,15 +183,7 @@ alt={one.name}
 </div>
     ) 
     )}  
-    {/* {pamphletsConnection.edges.map((one)=>( 
-     <div key={one.id}>
-  <div dangerouslySetInnerHTML={{__html: "<image src='https://media.graphassets.com/he710aTWRqOo6YRGnGCC' alt='IMG-20220825-WA0005.jpg' title='IMG-20220825-WA0005.jpg' width='576' height='764' />"
-}} className='mainContent'>
-</div>
-
-</div>
-    ) 
-    )} */}
+  
 <h2 className='galleryImage'>Old Girls Gallery</h2>
 <div className='imgSec'>
    <Image src={image004} height={200} width={200}  alt='oldGirls photos'/>
