@@ -242,12 +242,12 @@ alt={one.name}
  
 </div>
 
-<footer>
+{/* <footer>
 <div className='footerDiv' > 
     Copyright &copy; {new Date().getFullYear()} Ngenet Studio   
   
 </div>
-</footer>
+</footer> */}
 
     </div>
   )

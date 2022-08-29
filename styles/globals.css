@@ -3,20 +3,26 @@
   padding: 0;
 }
 
-body {
-  background-color: #030303;
+.firstSec {
+  display: flex;
 }
 
 .haffTitle {
   font-size: 35px;
-  padding: 30px 0 15px 50px;
+  padding: 20px 0 0 10px;
+  margin: 0 0 0 40px;
 }
 
 .mainContent {
-  font-size: 25px;
+  font-size: 20px;
 }
-.mainContent p, .mainContent img {
-  margin: 20px 0 0 50px;
+.mainContent p {
+  margin: 20px 0 0 40px;
+}
+.mainContent img {
+  margin: 20px 0 0 40px;
+  width: 800px;
+  height: 800px;
 }
 
 .haffHeader {
@@ -26,27 +32,16 @@ body {
   cursor: pointer;
   padding: 10px 0 20px 0;
   text-align: center;
-  font-size: 45px;
-  background-color: #fefefe;
+  font-size: 25px;
 }
 
-.coverDiv {
-  width: 100%;
-  color: #fefefe;
-  padding: 0 0 0.02px 0;
-}
-
-.container {
-  margin: 20px 0 0 0;
+.underHeader {
+  visibility: hidden;
 }
 
 .haffCards {
   font-size: 20px;
   color: #a92344;
-}
-
-.display {
-  margin: 15px 0 0 50px;
 }
 
 .haffTitle a {
@@ -67,62 +62,142 @@ body {
   color: rgb(82, 82, 156);
 }
 
-.haffDisplay {
-  margin: 50px 0 0 0;
-}
-.haffDisplay p {
-  margin: 20px 0 0 0;
-  font-size: 14px;
+.coverDiv .display {
+  margin: 20px 0 0 40px;
+  width: 800px;
+  height: 800px;
 }
 
 .author {
   display: flex;
-  margin: 20px 0 0 50px;
+  margin: 20px 0 0 100px;
 }
 .author img {
   height: 40px;
   width: 35px;
 }
 .author p {
-  margin: 0 0 0 20px;
+  margin: 20px 0 0 20px;
   font-size: 20px;
+}
+
+.boardSec {
+  margin: 70px 0 0 40px;
+}
+
+.leaderSec img {
+  width: 100px;
+  height: 100px;
+  margin: 30px 0 0 0;
+}
+.leaderSec p {
+  margin: 20px 0 0 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.boardLine {
+  height: 100px;
+  width: 5px;
+  background-color: #a92344;
+  margin: -100px 0 0 -20px;
+}
+
+.boardLine2 {
+  height: 5px;
+  width: 150px;
+  background-color: #a92344;
+  margin: 20px 0 0 0;
+}
+
+.galleryImage {
+  margin: 20px 0 0 0;
+}
+
+.imgSec {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-gap: 10px;
+  margin: 20px 0 0 0;
 }
 
 .footerDiv {
   background-color: #a92344;
-  color: #fefefe;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
+  width: 340%;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 360px) {
   .container {
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
+  }
+  .haffTitle {
+    font-size: 35px;
+    margin: 20px 0 0 20px;
+    padding: 0 0 0 0;
+  }
+  .haffHeader {
+    margin: 0 0 0 250px;
+  }
+  .underHeader {
+    width: 50%;
+    background-color: #a92344;
+    height: 3px;
+    margin: 10px 0 0 80px;
+    visibility: visible;
+  }
+  .author {
+    margin: 20px 0 0 20px;
+  }
+  .author img {
+    height: 40px;
+    width: 35px;
+  }
+  .author p {
+    margin: 5px 0 0 20px;
+    font-size: 20px;
   }
   .coverDiv {
     display: block;
   }
-  .haffHeader {
-    background-color: #030303;
-  }
-  .underHeader {
-    width: 30%;
-    background-color: #a92344;
-    height: 3px;
-    margin: 0 auto;
-  }
-  .midDiv {
-    margin: 20px 0 0 0;
-  }
-  .author p {
-    font-size: 20px;
-  }
-  .display {
-    height: 400px;
+  .coverDiv .display {
+    margin: 20px 0 0 20px;
     width: 400px;
+    height: 400px;
+  }
+  .mainContent {
+    font-size: 30px;
+  }
+  .mainContent p {
+    margin: 20px 0 0 20px;
+    width: 100%;
   }
   .mainContent img {
+    margin: 20px 0 0 20px;
     width: 400px;
     height: 400px;
+  }
+  .boardSec {
+    margin: 100px 0 0 50px;
+  }
+  .boardLine {
+    height: 100px;
+    width: 5px;
+    background-color: #a92344;
+    margin: -110px 0 0 -20px;
+  }
+  .leaderSec img {
+    margin: 10px 0 0 0;
+  }
+  .leaderSec h3 {
+    width: 100%;
+  }
+  .leaderSec p {
+    margin: 20px 0 0 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    width: 100%;
+  }
+  .footerDiv {
+    display: none;
   }
 }/*# sourceMappingURL=globals.css.map */
