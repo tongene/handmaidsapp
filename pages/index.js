@@ -190,7 +190,7 @@ alt={one.name}
 </div>
     ) 
     )} */}
-<h2 className='galleryImage'>Old Girls' Gallery</h2>
+<h2 className='galleryImage'>Old Girls&apos Gallery</h2>
 <div className='imgSec'>
    <Image src={image004} height={200} width={200}  alt='oldGirls photos'/>
   <Image src={image005} height={200} width={200} alt='oldGirls photos'/>
